@@ -7,6 +7,7 @@ Este proyecto la resolución al Challenge AluraGeek del curso Front End de Alura
 * Eliminar productos: Eliminar productos haciendo click en un icono.
   
 #Tecnologías utilizadas
+
 *Javascript <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 
 
