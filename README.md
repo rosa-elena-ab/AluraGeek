@@ -6,7 +6,7 @@ Este proyecto la resolución al Challenge AluraGeek del curso Front End de Alura
 * Registrar productos: Registrar nuevos productos a través de un formulario.
 * Eliminar productos: Eliminar productos haciendo click en un icono.
   
-#Tecnologías utilizadas
+# Tecnologías utilizadas
 
 *Javascript <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 
@@ -22,7 +22,7 @@ Dar estilo a los componentes html y hacer una aplicación responsiva con Media Q
 
 Crear la estructura del proyecto
 
-#IMAGEN DEL PROYECTO
+# IMAGEN DEL PROYECTO
 ![image](https://github.com/user-attachments/assets/22c8aecd-c7fc-450f-b6f5-9a038805978a)
 
 
