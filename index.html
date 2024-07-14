@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+</head>
+<body class="body">
+    <header class="encabezado">
+        <img src="./images/image 1.svg" alt="logo de alura" class="logo">
+        <h1 class="title-header">AluraGeek</h1>
+    </header>
+    <main class="main-container">
+        <section class="productos">
+            <h1 class="h1">MIS PRODUCTOS:</h1>
+            <div data-product class="products-container">
+
+            </div>
+            <!--
+            
+            <div class="card">
+                <div class="img-container">
+                    <img src="./images/unsplash_6FDXGY9J6y4.png" alt="img">
+                </div>
+                <div class="card-container--info">
+                    <p class="informacion_producto">Stormtrooper</p>
+                    <div class="card-container--value">
+                        <p class="informacion_producto">$ 20</p>
+                        <button class="delete-button" data-id="${id}">
+                            <img src="./images/Vector.svg" alt="Eliminar">
+
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+             -->
+        </section>
+       
+        <section class="formulario">
+            <h1 class="h1">AGREGAR PRODUCTO:</h1>
+
+            <!--Formulario-->
+            <form class="formulario-agregar-producto" data-form>
+                <fieldset class="formulario-producto">
+                    <input name="nombre-producto" id="nombre" class="input-producto" placeholder="Nombre" type="text"
+                        data-name />
+                </fieldset>
+                <fieldset class="formulario-producto">
+                    <input name="precio-producto" id="precio" class="input-producto" placeholder="Precio" type="text"
+                        data-price />
+                </fieldset>
+                <fieldset class="formulario-producto">
+                    <input name="imagen-producto" id="imagen" class="input-producto" placeholder="URL de la imagen" type="text"
+                        data-image />
+                </fieldset>
+                <br>
+                <div class="botones">
+                    <button type="submit" class="boton-enviar" id="btn">Enviar</button>
+                    <button type="reset" class="boton-limpiar" id="btn">Limpiar</button>
+                </div>
+            </form>
+
+        </section>
+
+
+    </main>
+    <footer class="pie-de-pagina">
+        <div class="logo-footer">
+            <img src="./images/image 1.svg" alt="logo de alura" class="logo">
+            <p class="title-footer">AluraGeek</p>
+        </div>
+        <p class="copyright">Desarrollado por Rosa Elena Anaya - 2024</p>
+        <p class="copyright">Alura Latam - OracleNextEducation</p>
+
+    </footer>
+    <script type="module" src="./js/controller/main.js"></script>
+    
+</body>
+</html>

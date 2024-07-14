@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Game Boy Clasic",
+      "price": "250",
+      "image": "./images/game_boy.png",
+      "id": "1"
+    },
+    {
+      "name": "Cubo rubik",
+      "price": "50",
+      "image": "./images/rubik-s-cube.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Venom",
+      "price": "80",
+      "image": "./images/venom.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Toad",
+      "price": "70",
+      "image": "./images/toad.png",
+      "id": "4"
+    }
+  ]
+}
